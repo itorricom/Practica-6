@@ -88,7 +88,7 @@ html{
                 align-items: center;
                 font-size: 1.5rem;
                 gap: 2rem;
-                border-bottom: 1px solid #da521e;
+                border-bottom: 1px solid #e2e2e2;
                 padding: 3rem;
             }
                 .article_description a{
@@ -170,7 +170,75 @@ html{
                     .aside_icon img{
                         object-fit: contain;
                     }
+footer{
+    display: flex;
+    flex-direction: column;
+}
                 
-    .footer{
-        background-color: rgb(248, 115, 208);
-    }
+    .footer_container{
+        background-color: #333333;
+        width: 90%;
+        max-width: 100rem;
+        margin: auto; 
+        }
+                        .footer_container-items{
+                            display: flex;
+                            gap: 8px;
+                            justify-content: space-around;
+                            margin: 8rem auto 5rem;
+                            color: white;
+                            font-size: 1.4rem;
+                        }
+                        .item1{
+                            display: flex;
+                            width: 30%;
+                            flex-direction: column;
+                    
+                        }
+                            .item1-title{
+                                padding: 2rem;
+                            }
+                            .item1 p{
+                                padding: 2rem;
+                            }
+                            .address{
+                                padding: 2rem;
+                            }
+                        .item2{
+                            display: flex;
+                            width: 30%;
+                            flex-direction: column;
+                        }
+                            .item2-title{
+                                padding: 2rem;
+                            }
+                            .tweet{
+                                padding: 2rem;
+                            }
+                        .item3{
+                            display: flex;
+                            width: 30%;
+                            flex-direction: column;
+                            padding: 2rem;
+                        }
+                            .item3 h2{
+                                padding-bottom: 2rem;
+                            }
+    .footer_copy{
+        background-color: #222222;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 6.6rem;
+        width: 90%;
+        max-width: 100rem;
+        margin:auto; 
+     }
+                    
+                    .footer_copy p{
+                        font-size: 1.4rem;
+                        color:white;
+                        background-color: #222222;
+                        
+                    }
